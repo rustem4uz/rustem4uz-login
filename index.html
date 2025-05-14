@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход</title>
+  <meta name="author" content="emirveliyevrustem">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+    <aside class="right">
+      <div class="testimonial">
+        <h2>Мудрость великих</h2>
+        <p>«Инновации отличают лидера от догоняющего.»</p>
+        <div class="author">Стив Джобс</div>
+        <div class="role">Сооснователь Apple</div>
+      </div>
+      <div class="cta-card">
+        <div class="title">С возвращением!</div>
+        <p>Войдите в систему чтобы продолжить свой путь к успеху</p>
+        <div class="profiles">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Пользователь">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Пользователь">
+          <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Пользователь">
+        </div>
+        <div class="add" onclick="showAlert()">+</div>
+        <div class="custom-alert" id="customAlert">
+          <p>Ваш успех ждёт!<br><span>Используйте данные для входа и двигайтесь вперёд</span></p>
+          <button onclick="hideAlert()">Понятно!</button>
+        </div>
+      </div>
+      <div class="switch-link">
+        Нет аккаунта? <a href="/register" class="auth-link">Зарегистрируйтесь</a>
+      </div>
+    </aside>
+
+    <aside class="left">
+      <h1 class="logo">Вход в аккаунт</h1>
+      <form action="/login" method="POST" novalidate>
+        <div class="form-group">
+          <label for="email">Электронная почта</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" name="password" required>
+          <button type="button" class="toggle-password" onclick="togglePassword()">Показать</button>
+        </div>
+        <button type="submit" class="btn">Войти</button>
+      </form>
+      <div class="socials">
+        <a href="/auth/vk">VK</a>
+        <a href="/auth/facebook">F</a>
+        <a href="/auth/twitter">T</a>
+        <a href="/auth/github">GH</a>
+      </div>
+      <div class="signup-text">Или используйте соцсети для входа</div>
+    </aside>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
