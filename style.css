@@ -104,7 +104,7 @@ body, html {
   content: '';
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
-  background: url('https://img.freepik.com/premium-vector/vector-cosmic-illustration-beautiful-colorful-space-background-watercolor-cosmos_158941-300.jpg') center/cover no-repeat;
+  background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fastral-concept-wallpaper_23-2150038869.jpg%3Fsemt%3Dais_hybrid%26w%3D740&tbnid=Z8nHGXmgH1nHKM&vet=1&imgrefurl=https%3A%2F%2Fru.freepik.com%2Fphotos%2F%25D0%25BA%25D0%25BE%25D1%2581%25D0%25BC%25D0%25BE%25D1%2581-%25D0%25BF%25D0%25BB%25D0%25B0%25D0%25BD%25D0%25B5%25D1%2582%25D1%258B&docid=-HqmlkdJyGDQxM&w=740&h=1109&hl=ru-RU&source=sh%2Fx%2Fim%2Fm6%2F4&kgs=ebee9a7b6118261a') center/cover no-repeat;
   opacity: 0.3;
   pointer-events: none;
 }
